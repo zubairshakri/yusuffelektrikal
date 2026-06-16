@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="images/favicon-32x32.png">
+<meta name="description" content="Terms and Conditions for Yusuff Elektrikal — electrician & aircond services in Shah Alam & Bukit Jelutong.">
+<title>Terms & Conditions | Yusuff Elektrikal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --blue:#0E4C86;--blue-light:#E7EEF6;--blue-dark:#062F52;
+  --yellow:#F5A623;
+  --bg:#F7F9FC;--white:#FFFFFF;
+  --text:#111827;--text-mid:#374151;--muted:#6B7280;
+  --border:#E5E7EB;--border-blue:#B9CCE0;
+  --shadow-sm:0 1px 3px rgba(0,0,0,0.08),0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md:0 4px 16px rgba(0,0,0,0.08),0 2px 6px rgba(0,0,0,0.05);
+  --radius:12px;--radius-sm:8px;
+  --font:'Plus Jakarta Sans',sans-serif;--font-mono:'DM Mono',monospace;
+}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--font);font-size:16px;line-height:1.6;overflow-x:hidden}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 2.5rem;height:64px;background:rgba(255,255,255,0.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);box-shadow:var(--shadow-sm)}
+.nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.nav-logo-icon{width:36px;height:36px;border-radius:8px;overflow:hidden;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.nav-logo-icon img{width:100%;height:100%;object-fit:cover}
+.nav-logo-text{font-size:16px;font-weight:700;color:var(--text)}
+.nav-logo-text span{color:var(--blue)}
+.nav-back{font-size:13px;color:var(--muted);text-decoration:none;font-weight:600;display:flex;align-items:center;gap:6px;transition:color 0.2s}
+.nav-back:hover{color:var(--blue)}
+.nav-cta{background:var(--blue);color:#fff;font-size:13px;font-weight:600;padding:8px 18px;border-radius:var(--radius-sm);text-decoration:none;transition:background 0.2s}
+.nav-cta:hover{background:var(--blue-dark)}
+.page-header{padding:120px 5vw 60px;background:linear-gradient(160deg,#E7EEF6 0%,#F7F9FC 70%);border-bottom:1px solid var(--border)}
+.header-tag{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:var(--blue);text-transform:uppercase;letter-spacing:2px;margin-bottom:1rem}
+.page-header h1{font-size:clamp(2.4rem,5vw,3.6rem);font-weight:700;letter-spacing:-1px;line-height:1.1;color:var(--text);margin-bottom:1rem}
+.header-meta{display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:1.5rem}
+.meta-pill{font-size:12px;color:var(--text-mid);font-weight:600;background:var(--white);border:1px solid var(--border);padding:6px 14px;border-radius:999px}
+.page-body{display:grid;grid-template-columns:240px 1fr;max-width:1100px;margin:0 auto;padding:4rem 5vw;gap:4rem;align-items:start}
+.toc{position:sticky;top:84px}
+.toc-label{font-size:11px;font-weight:700;color:var(--blue);text-transform:uppercase;letter-spacing:2px;margin-bottom:1rem}
+.toc ul{list-style:none;display:flex;flex-direction:column;gap:2px;border-left:2px solid var(--border);padding-left:1rem}
+.toc a{font-size:13px;color:var(--muted);text-decoration:none;line-height:2;transition:color 0.2s;display:block;font-weight:500}
+.toc a:hover{color:var(--blue)}
+.terms-content{min-width:0}
+.terms-section{margin-bottom:3.5rem;padding-bottom:3.5rem;border-bottom:1px solid var(--border)}
+.terms-section:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.section-num{font-size:11px;font-weight:700;color:var(--blue);letter-spacing:2px;text-transform:uppercase;margin-bottom:0.5rem}
+.terms-section h2{font-size:1.7rem;font-weight:700;color:var(--text);margin-bottom:1.25rem;line-height:1.2;letter-spacing:-0.3px}
+.terms-section p{font-size:15px;color:var(--text-mid);line-height:1.85;margin-bottom:1rem}
+.terms-section p:last-child{margin-bottom:0}
+.terms-section p strong{color:var(--text)}
+.terms-list{list-style:none;display:flex;flex-direction:column;gap:0.85rem;margin:1rem 0}
+.terms-list li{display:flex;gap:12px;align-items:flex-start;font-size:15px;color:var(--text-mid);line-height:1.7}
+.terms-list li::before{content:'⚡';font-size:12px;margin-top:5px;flex-shrink:0;color:var(--blue)}
+.terms-list li strong{color:var(--text)}
+.highlight-box{background:var(--blue-light);border:1px solid var(--border-blue);border-left:4px solid var(--blue);border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:1.25rem 1.5rem;margin:1.25rem 0}
+.highlight-box p{font-size:14px;color:var(--blue-dark);font-weight:500;margin:0;line-height:1.7}
+.highlight-box p strong{color:var(--blue-dark)}
+.fee-callout{background:#FEF3C7;border:1px solid #FCD34D;border-radius:var(--radius-sm);padding:1.25rem 1.5rem;margin:1.25rem 0;display:flex;gap:12px;align-items:flex-start}
+.fee-callout .fee-icon{font-size:22px;flex-shrink:0}
+.fee-callout p{font-size:14px;color:#78350F;font-weight:500;margin:0;line-height:1.7}
+.fee-callout p strong{color:#78350F}
+.contact-band{background:var(--white);border-top:1px solid var(--border);padding:4rem 5vw;text-align:center;display:flex;flex-direction:column;align-items:center;gap:1rem}
+.contact-band h3{font-size:2rem;font-weight:700;color:var(--text);letter-spacing:-0.5px}
+.contact-band p{font-size:15px;color:var(--muted);max-width:480px}
+.btn-primary{display:inline-flex;align-items:center;gap:10px;background:var(--blue);color:#fff;font-weight:600;font-size:15px;padding:13px 28px;border-radius:var(--radius-sm);text-decoration:none;margin-top:0.5rem;transition:background 0.2s,transform 0.15s}
+.btn-primary:hover{background:var(--blue-dark);transform:translateY(-1px)}
+footer{background:#111827;padding:3rem 5vw 2rem;display:grid;grid-template-columns:2fr 1fr 1fr;gap:3rem}
+.footer-logo{display:flex;align-items:center;gap:10px;margin-bottom:0.75rem}
+.footer-logo-icon{width:36px;height:36px;border-radius:8px;overflow:hidden;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.footer-logo-icon img{width:100%;height:100%;object-fit:cover}
+.footer-logo-text{font-size:16px;font-weight:700;color:#fff}
+.footer-tagline{font-size:13px;color:#9CA3AF;line-height:1.7}
+footer h4{font-size:11px;text-transform:uppercase;letter-spacing:2px;color:#6B7280;margin-bottom:1rem;font-weight:600}
+footer ul{list-style:none;display:flex;flex-direction:column;gap:8px}
+footer a{font-size:14px;color:#D1D5DB;text-decoration:none;transition:color 0.2s}
+footer a:hover{color:#fff}
+.footer-bottom{border-top:1px solid #1F2937;padding:1.25rem 5vw;display:flex;justify-content:space-between;align-items:center;font-size:12px;color:#6B7280;background:#111827;flex-wrap:wrap;gap:0.5rem}
+.wa-float{position:fixed;bottom:1.75rem;right:1.75rem;z-index:200;width:58px;height:58px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 4px 20px rgba(37,211,102,0.4);transition:transform 0.2s}
+.wa-float:hover{transform:scale(1.08)}
+.wa-float svg{width:28px;height:28px;fill:white}
+@media(max-width:800px){
+  .page-body{grid-template-columns:1fr;gap:2rem}
+  .toc{position:static;display:none}
+  footer{grid-template-columns:1fr}
+  .footer-bottom{flex-direction:column;gap:0.5rem;text-align:center}
+  nav .nav-back span{display:none}
+}
+</style>
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HYR2XQP7DQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HYR2XQP7DQ');
+</script>
+
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    <div class="nav-logo-icon"><img src="images/favicon-32x32.png" alt="Yusuff Elektrikal logo"></div>
+    <span class="nav-logo-text">Yusuff <span>Elektrikal</span></span>
+  </a>
+  <a href="index.html" class="nav-back">← <span>Back to Home</span></a>
+  <a href="https://wa.me/60193449791?text=Hi%20Yusuff,%20I%20need%20an%20electrician!" class="nav-cta" target="_blank">WhatsApp Us</a>
+</nav>
+
+<div class="page-header">
+  <div class="header-tag">Legal</div>
+  <h1>Terms &amp; Conditions</h1>
+  <div class="header-meta">
+    <span class="meta-pill">📅 Effective: 1 January 2025</span>
+    <span class="meta-pill">🔄 Last Updated: June 2026</span>
+    <span class="meta-pill">📋 Applies to: All Services</span>
+  </div>
+</div>
+
+<div class="page-body">
+
+  <aside class="toc">
+    <div class="toc-label">On This Page</div>
+    <ul>
+      <li><a href="#acceptance">1. Acceptance</a></li>
+      <li><a href="#services">2. Services Offered</a></li>
+      <li><a href="#service-area">3. Service Area</a></li>
+      <li><a href="#booking">4. Booking & Scheduling</a></li>
+      <li><a href="#pricing">5. Pricing & Payment</a></li>
+      <li><a href="#guarantee">6. Service Guarantee</a></li>
+      <li><a href="#liability">7. Liability</a></li>
+      <li><a href="#cancellation">8. Cancellation Policy</a></li>
+      <li><a href="#conduct">9. Customer Conduct</a></li>
+      <li><a href="#privacy">10. Privacy</a></li>
+      <li><a href="#changes">11. Changes to Terms</a></li>
+      <li><a href="#contact">12. Contact Us</a></li>
+    </ul>
+  </aside>
+
+  <main class="terms-content">
+
+    <div class="terms-section" id="acceptance">
+      <div class="section-num">01</div>
+      <h2>Acceptance of Terms</h2>
+      <p>By contacting, booking, or engaging the services of <strong>Yusuff Elektrikal</strong> — whether via WhatsApp, phone call, or any other channel — you agree to be bound by these Terms and Conditions.</p>
+      <p>If you do not agree with any part of these terms, please do not proceed with booking a service. These terms apply to all customers in all service locations.</p>
+      <div class="highlight-box">
+        <p><strong>Plain English:</strong> When you message or call Yusuff to book a job, you're agreeing to these terms. Nothing complicated — just read through so we're on the same page.</p>
+      </div>
+    </div>
+
+    <div class="terms-section" id="services">
+      <div class="section-num">02</div>
+      <h2>Services Offered</h2>
+      <p>Yusuff Elektrikal provides the following services to residential and light commercial customers:</p>
+      <ul class="terms-list">
+        <li><strong>Electrical Wiring</strong> — new installations, extensions, rewiring for homes and offices</li>
+        <li><strong>Aircond Servicing</strong> — routine cleaning, gas top-up, coil washing, and general maintenance</li>
+        <li><strong>Electrical Repairs</strong> — fixing faulty switches, dead sockets, tripping circuit breakers, ceiling fans, and related faults</li>
+        <li><strong>CCTV Installation</strong> — basic CCTV setup for homes and small premises</li>
+      </ul>
+      <p>All services are carried out by or under the direct supervision of Yusuf, a diploma graduate in Electrical Engineering &amp; Technology (UniKL BMI) currently pursuing a Bachelor's degree at UiTM Shah Alam.</p>
+      <p>Yusuff Elektrikal reserves the right to decline any job that falls outside our scope of expertise, poses a safety risk, or requires permits beyond our current qualifications. In such cases, we will inform you promptly and where possible recommend an appropriate referral.</p>
+    </div>
+
+    <div class="terms-section" id="service-area">
+      <div class="section-num">03</div>
+      <h2>Service Area</h2>
+      <p>Our primary service area covers <strong>Shah Alam</strong> and <strong>Bukit Jelutong</strong>, Selangor. We may accommodate requests from nearby areas depending on availability and travel distance.</p>
+      <ul class="terms-list">
+        <li>Jobs outside our primary area may be subject to an additional travel surcharge on top of the standard call-out fee, which will be communicated to you before the booking is confirmed.</li>
+        <li>We do not guarantee availability for all locations outside Shah Alam and Bukit Jelutong.</li>
+      </ul>
+    </div>
+
+    <div class="terms-section" id="booking">
+      <div class="section-num">04</div>
+      <h2>Booking &amp; Scheduling</h2>
+      <p>All bookings are made directly via WhatsApp. A booking is only confirmed once Yusuff responds with a confirmed date and time.</p>
+      <ul class="terms-list">
+        <li>Bookings are accepted on a first-come, first-served basis.</li>
+        <li>We will do our best to accommodate same-day or urgent requests, but these cannot be guaranteed.</li>
+        <li>Appointment times are estimates. Traffic, prior job overruns, or unforeseen circumstances may affect our arrival time. We will notify you if we are running late.</li>
+        <li>Please ensure that an adult (18 years or above) is present at the premises during the service.</li>
+        <li>Access to the relevant area (meter box, aircond unit, affected room) must be available at the agreed time. If access is not possible, the visit may need to be rescheduled, and the standard call-out fee described in Section 5 will still apply.</li>
+      </ul>
+    </div>
+
+    <div class="terms-section" id="pricing">
+      <div class="section-num">05</div>
+      <h2>Pricing &amp; Payment</h2>
+      <p>Yusuff Elektrikal is committed to <strong>transparent, honest pricing</strong>. All quotes are provided before work begins and will not change without your consent.</p>
+      <div class="fee-callout">
+        <div class="fee-icon">💵</div>
+        <p><strong>Minimum RM50 call-out fee:</strong> Every site visit, regardless of job size or outcome, carries a minimum RM50 call-out fee. This covers Yusuff's travel time and on-site inspection. If you proceed with the repair on the same visit, this RM50 forms part of your total invoice — it is never charged in addition to the repair cost. If, after inspection, you choose not to proceed, the RM50 call-out fee remains payable for the time and travel already committed.</p>
+      </div>
+      <ul class="terms-list">
+        <li>For jobs where the full scope is unknown until inspection (e.g. tracing a fault), the diagnostic process is covered under the standard RM50 call-out fee.</li>
+        <li>Spare parts or materials required for the job are charged separately from labour, at cost price plus a reasonable handling fee.</li>
+        <li>Payment is due upon completion of the job unless otherwise agreed in advance.</li>
+        <li>Accepted payment methods include <strong>cash</strong> and <strong>online transfer (DuitNow / bank transfer)</strong>.</li>
+        <li>Quotes are valid for <strong>14 days</strong> from the date issued. After this period, prices may be revised due to changes in parts or availability.</li>
+      </ul>
+      <div class="highlight-box">
+        <p><strong>No surprises policy:</strong> If additional work is discovered mid-job that was not in the original quote, Yusuff will stop, explain the situation, and get your approval before proceeding. You will never be billed for work you didn't agree to.</p>
+      </div>
+    </div>
+
+    <div class="terms-section" id="guarantee">
+      <div class="section-num">06</div>
+      <h2>Service Guarantee</h2>
+      <p>We stand behind our work. If the <strong>exact same fault</strong> recurs within <strong>30 days</strong> of a completed job, Yusuff Elektrikal will return to rectify it at no additional labour charge — and no additional call-out fee.</p>
+      <ul class="terms-list">
+        <li>The guarantee applies only to the specific fault that was repaired — not to new or unrelated issues.</li>
+        <li>The guarantee does not cover damage caused by misuse, power surges, flooding, tampering by a third party, or acts beyond our control after the job is completed.</li>
+        <li>Replacement parts used in the original repair are covered by the manufacturer's warranty where applicable; Yusuff Elektrikal does not extend its own warranty on parts.</li>
+        <li>Return visits made under this guarantee do <strong>not</strong> incur a new RM50 call-out fee — it was already paid on the original visit.</li>
+        <li>To invoke the guarantee, contact us via WhatsApp within 30 days of the original service date with a description of the recurring issue.</li>
+      </ul>
+    </div>
+
+    <div class="terms-section" id="liability">
+      <div class="section-num">07</div>
+      <h2>Liability</h2>
+      <p>Yusuff Elektrikal takes reasonable care and professional pride in all work carried out. However, our liability is limited as follows:</p>
+      <ul class="terms-list">
+        <li>We are not liable for <strong>pre-existing hidden faults</strong> in wiring, pipework, or infrastructure that were not visible or detectable at the time of inspection.</li>
+        <li>We are not liable for damage caused by <strong>faulty or substandard materials</strong> supplied by the customer.</li>
+        <li>We are not liable for consequential losses — such as loss of income, spoiled food from a fridge outage, or similar indirect damages — arising from an electrical or aircond fault.</li>
+        <li>Our maximum liability for any single job is limited to the total amount paid for that job.</li>
+        <li>Customers are responsible for ensuring that the premises and all relevant access points are safe for our team to work in.</li>
+      </ul>
+      <p>Nothing in these terms limits our liability for death, personal injury, or any matter where limitation is not permitted by Malaysian law.</p>
+    </div>
+
+    <div class="terms-section" id="cancellation">
+      <div class="section-num">08</div>
+      <h2>Cancellation Policy</h2>
+      <p>We understand that things come up. Here's how cancellations work:</p>
+      <ul class="terms-list">
+        <li><strong>Cancellations made more than 3 hours before the appointment</strong> — no charge, fully reschedulable.</li>
+        <li><strong>Cancellations made less than 3 hours before, or no-shows</strong> — the standard RM50 call-out fee may still apply, since travel time has already been committed by that point.</li>
+        <li>Yusuff Elektrikal reserves the right to cancel or reschedule appointments due to illness, emergencies, or circumstances outside our control. In such cases, you will be notified as early as possible and offered an alternative slot at no charge.</li>
+      </ul>
+    </div>
+
+    <div class="terms-section" id="conduct">
+      <div class="section-num">09</div>
+      <h2>Customer Conduct</h2>
+      <p>Yusuff Elektrikal operates professionally and expects the same in return. We reserve the right to refuse or discontinue service if a customer or anyone on the premises:</p>
+      <ul class="terms-list">
+        <li>Is abusive, threatening, or behaves in a way that endangers the safety of our team</li>
+        <li>Provides deliberately false information about the scope or nature of the job</li>
+        <li>Refuses to allow safe and reasonable access to carry out the work</li>
+      </ul>
+      <p>In such cases, the standard RM50 call-out fee may still be charged to cover travel and time already committed.</p>
+    </div>
+
+    <div class="terms-section" id="privacy">
+      <div class="section-num">10</div>
+      <h2>Privacy</h2>
+      <p>When you contact us, we collect basic information such as your name, phone number, address, and the nature of your request. This information is used solely to arrange and deliver your service.</p>
+      <ul class="terms-list">
+        <li>We do not sell or share your personal information with third parties for marketing purposes.</li>
+        <li>Your contact details may be stored in our records for the purpose of follow-up service, reminders, or invoicing.</li>
+        <li>Photos of completed work may be taken for quality assurance or portfolio purposes. We will not include identifiable personal information in any publicly shared images without your consent.</li>
+      </ul>
+      <p>By engaging our services, you consent to the collection and use of your information as described above, in accordance with Malaysia's <strong>Personal Data Protection Act 2010 (PDPA)</strong>.</p>
+    </div>
+
+    <div class="terms-section" id="changes">
+      <div class="section-num">11</div>
+      <h2>Changes to Terms</h2>
+      <p>Yusuff Elektrikal reserves the right to update these Terms and Conditions at any time, including the call-out fee amount stated in Section 5. The most current version will always be available on this page with the date of the last update.</p>
+      <p>Continued use of our services after any changes constitutes your acceptance of the updated terms. If you have questions about any changes, feel free to reach out via WhatsApp.</p>
+    </div>
+
+    <div class="terms-section" id="contact">
+      <div class="section-num">12</div>
+      <h2>Contact Us</h2>
+      <p>If you have any questions about these Terms and Conditions, or anything else about our services, reach out directly:</p>
+      <ul class="terms-list">
+        <li><strong>WhatsApp:</strong> <a href="https://wa.me/60193449791" target="_blank" style="color:var(--blue);text-decoration:none">+60 19-344 9791</a></li>
+        <li><strong>Service Area:</strong> Shah Alam &amp; Bukit Jelutong, Selangor</li>
+        <li><strong>Operating Hours:</strong> Monday – Saturday, 8:00 AM – 8:00 PM (emergency enquiries welcome outside these hours)</li>
+      </ul>
+      <div class="highlight-box">
+        <p>These Terms and Conditions are governed by the laws of <strong>Malaysia</strong>. Any disputes shall be subject to the jurisdiction of Malaysian courts.</p>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<div class="contact-band">
+  <h3>Still have questions?</h3>
+  <p>Don't overthink it — just send a message and Yusuff will sort it out personally.</p>
+  <a href="https://wa.me/60193449791?text=Hi%20Yusuff,%20I%20have%20a%20question%20about%20your%20terms." class="btn-primary" target="_blank">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    Ask on WhatsApp
+  </a>
+</div>
+
+<footer>
+  <div>
+    <div class="footer-logo"><div class="footer-logo-icon"><img src="images/favicon-32x32.png" alt="Yusuff Elektrikal logo"></div><span class="footer-logo-text">Yusuff Elektrikal</span></div>
+    <p class="footer-tagline">Your trusted electrician in Shah Alam &amp; Bukit Jelutong.<br>Degree-qualified, transparently priced, and honest.</p>
+  </div>
+  <div>
+    <h4>Services</h4>
+    <ul>
+      <li><a href="https://wa.me/60193449791?text=Hi%20Yusuff,%20I%20need%20wiring%20service" target="_blank">Electrical Wiring</a></li>
+      <li><a href="https://wa.me/60193449791?text=Hi%20Yusuff,%20I%20need%20aircond%20servicing" target="_blank">Aircond Servicing</a></li>
+      <li><a href="https://wa.me/60193449791?text=Hi%20Yusuff,%20I%20need%20electrical%20repairs" target="_blank">Electrical Repairs</a></li>
+    </ul>
+  </div>
+  <div>
+    <h4>Legal</h4>
+    <ul>
+      <li><a href="terms.html">Terms &amp; Conditions</a></li>
+      <li><a href="index.html">Back to Home</a></li>
+      <li><a href="https://wa.me/60193449791" target="_blank">Contact Us</a></li>
+    </ul>
+  </div>
+</footer>
+<div class="footer-bottom">
+  <span>© 2025 Yusuff Elektrikal · Shah Alam &amp; Bukit Jelutong</span>
+  <span><a href="terms.html" style="color:#6B7280;text-decoration:none">Terms &amp; Conditions</a></span>
+</div>
+
+<a href="https://wa.me/60193449791?text=Hi%20Yusuff,%20I%20need%20an%20electrician!" class="wa-float" target="_blank" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+</body>
+</html>
